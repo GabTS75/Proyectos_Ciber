@@ -2,43 +2,46 @@
 
 ## Análisis de la comunicación en la capa de red
 
-Vamos a desglosar este incidente paso a paso para que se logre entender la "historia" que cuentan esos datos.
+Desglosaré este incidente paso a paso para que se entienda mejor la "historia" que cuentan esos datos.
 
-## Paso 1: Interpretación (Análisis de Logs)
+## Introducción
 
-Viendo la imagen que nos muestra `tcpdump`., considero que un analista siempre debe leer primero el registro completamente o siguiendo la línea de tiempo.
-
-1. **La Petición (Request):** El equipo (`192.51.100.15`) intenta hablar con el servidor DNS (`203.0.113.2`) en el puerto `53` (dominio) usando **UDP** para preguntar: *"¿Cuál es la IP de yummyrecipesforme.com?"*.
-2. **El Problema:** El servidor responde con un paquete **ICMP**. En redes, ICMP es como el "mensajero" que trae buenas o malas noticias, malas en este caso.
-3. **El Error:** El mensaje dice `udp port 53 unreachable`. Esto significa que el servidor está ahí, pero el "negocio" (el servicio DNS) está cerrado o no acepta clientes en esa puerta.
+En este ejercicio, me puse en los zapatos de un analista de seguridad para investigar un problema real: varios usuarios no podían entrar a la web `www.yummyrecipesforme.com`.
+Mi objetivo fue "escuchar" la red para entender en qué punto de la comunicación se estaba rompiendo el flujo de datos.
 
 ---
 
-## Paso 2: Desarrollo del informe (Parte 1)
+### Parte 1: Resumen del problema (Lo que dicen los datos)
 
-Ahora rellenamos la primera parte del **Cybersecurity Incident Report** cogiendo los datos técnicos.
+Al analizar los registros (logs) de la comunicación, esto es lo que encontré:
 
-### Parte 1: Resumen del problema en el registro DNS e ICMP
-
-- **El protocolo UDP revela que:** El cliente intentó realizar consultas DNS repetidas para el dominio `yummyrecipesforme.com` hacia el servidor `203.0.113.2`.
-- **Esto se basa en los resultados del análisis de red, que muestran que la respuesta de ICMP devolvió el mensaje de error:** `udp port 53 unreachable`.
-- **El puerto anotado en el mensaje de error se utiliza para:** Servicios de resolución de nombres de dominio (DNS).
-- **El problema más probable es:** El servicio DNS en el servidor de destino no está activo, o hay un firewall bloqueando específicamente el acceso al puerto 53, lo que impide la resolución del nombre de dominio y, en consecuencia, el acceso al sitio web.
+- **El protocolo UDP nos cuenta que:** El ordenador intentó varias veces preguntarle al servidor DNS (en la dirección `203.0.113.2`) cuál era la dirección "física" (IP) de la web.
+- **Sabemos que algo falló porque:** En lugar de recibir la respuesta con la dirección IP, el servidor nos mandó de vuelta un mensaje de error ICMP que decía: `udp port 53 unreachable`.
+- **¿Para qué sirve ese puerto?:** El puerto 53 es como la "ventanilla" específica donde se atienden las consultas de nombres de dominio (DNS).
+- **Mi conclusión inicial:** El servidor está encendido y nos escucha, pero la "ventanilla" del servicio DNS está cerrada. Por eso la web no carga: no podemos traducir el nombre a una dirección IP.
 
 ---
 
-## Paso 3: Análisis y origen (Parte 2)
+### Parte 2: Mi análisis y el origen que causó el incidente
 
-Analicemos un poco.
+Aquí explico cómo llegué a estas conclusiones y qué fue lo que pasó:
 
-### Parte 2: Análisis de datos y causa del incidente
-
-- **Hora del incidente:** El primer evento registrado ocurrió a las **13:24:32** y continuó con reintentos hasta las **13:28:50**.
-- **Cómo se detectó:** A través de reportes de clientes que no podían acceder a la web y la confirmación del analista mediante el error de navegador "puerto de destino inalcanzable".
-- **Acciones de investigación:** Se utilizó la herramienta de línea de comandos `tcpdump` para capturar el tráfico de red mientras se intentaba cargar el sitio web, permitiendo ver los paquetes en tránsito.
-- **Hallazgos clave:** Se identificó que las solicitudes salientes viajan correctamente, pero el servidor DNS (`203.0.113.2`) rechaza las conexiones UDP en el puerto 53 mediante mensajes de error ICMP.
-- **Causa probable:** Una caída del servicio DNS en el servidor o una configuración incorrecta en las reglas de filtrado (firewall) del lado del servidor que ha dejado el puerto 53 como "inalcanzable".
+- **¿Cuándo pasó?:** Todo empezó a las **13:24:32**, según las marcas de tiempo de los registros.
+- **¿Cómo nos enteramos?:** Los clientes empezaron a quejarse de que la página tardaba mucho en cargar y al final les salía un error de "puerto inalcanzable". Yo mismo lo comprobé al intentar entrar.
+- **¿Qué hice para investigar?:** Usé una herramienta llamada `tcpdump`. Lo que hace es capturar los paquetes de datos que viajan por el cable (o el aire) para que podamos leerlos. Intenté entrar a la web mientras la herramienta estaba encendida para ver el tráfico en vivo.
+- **Descubrimientos clave:**
+    1. Mis peticiones de ayuda (paquetes UDP) salieron bien de mi computadora.
+    2. El servidor de destino respondió, pero lo hizo con un error ICMP.
+    3. Esto confirma que no es un problema de mi conexión, sino de la "otra parte".
+- **Causa más probable:** Creo que el servicio que se encarga de los nombres (DNS) se cayó en el servidor de destino, o quizás alguien configuró mal el muro de seguridad (firewall) y bloqueó ese puerto por error.
 
 ---
 
 [Informe-de-incidente-de-ciberseguridad-Análisis-de-tráfico-de-red.pdf (Gabriel Ternero)](pdf/Informe-Gabriel-Ternero.pdf)
+
+## Lo que aprendí con este caso
+
+Este ejercicio me ayudó a entender que la red no solo envía datos, sino también "mensajes de error" (**ICMP**) que son como pistas para los analistas. Aprender a leer estas pistas es la diferencia entre adivinar qué pasa y saber exactamente dónde está el problema.
+
+---
+💫

@@ -14,7 +14,7 @@ Usted es un analista de ciberseguridad que trabaja en una empresa especializada 
 
 Usted tiene la tarea de analizar la situación y determinar qué protocolo de red se vio afectado durante este incidente. Para empezar, intenta visitar la página web y también recibe el error "puerto de destino inalcanzable" Para solucionar el problema, carga su herramienta de análisis de red, `tcpdump`, e intenta cargar de nuevo la página web. Para cargar la página web, su navegador envía una consulta a un servidor DNS a través del protocolo UDP para recuperar la dirección IP del nombre de dominio del sitio web; esto forma parte del protocolo DNS. A continuación, su navegador utiliza esta dirección IP como IP de destino para enviar una solicitud HTTPS al servidor web para mostrar la página web El analizador muestra que cuando envía paquetes UDP al servidor DNS, recibe paquetes ICMP que contienen el mensaje de error: "Puerto udp 53 inalcanzable".
 
-![image.png](img/image.png)
+![image.png](img/evidencia_log.png)
 
 En el registro `tcpdump`, se encuentra la siguiente información:
 
