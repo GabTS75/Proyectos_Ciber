@@ -1,4 +1,4 @@
-# Análisis para el desarrollo del proyecto
+# Análisis para el desarrollo de este proyecto
 
 ## Análisis de la comunicación en la capa de red
 
@@ -22,7 +22,7 @@ Al analizar los registros (logs) de la comunicación, esto es lo que encontré:
 
 ---
 
-### Parte 2: Mi análisis y el origen que causó el incidente
+### Parte 2: Mi análisis y el origen del incidente
 
 Aquí explico cómo llegué a estas conclusiones y qué fue lo que pasó:
 
@@ -41,7 +41,8 @@ Aquí explico cómo llegué a estas conclusiones y qué fue lo que pasó:
 
 ## Lo que aprendí con este caso
 
-Este ejercicio me ayudó a entender que la red no solo envía datos, sino también "mensajes de error" (**ICMP**) que son como pistas para los analistas. Aprender a leer estas pistas es la diferencia entre adivinar qué pasa y saber exactamente dónde está el problema.
+Este ejercicio me ayudó a entender que la red no solo envía datos, sino también "mensajes de error" (**ICMP**) que son como pistas para los analistas.
+Comprendí que se debe *aprender a leer estas pistas* es la diferencia entre adivinar qué pasa y saber exactamente dónde está el problema.
 
 ---
 💫
