@@ -56,7 +56,7 @@ Para utilizar los materiales de apoyo para este tema del curso, haga clic en los
 
 [Example-of-a-Cybersecurity-Incident-Report.pdf](pdf/Example-of-a-Cybersecurity-Incident-Report.pdf)
 
-## Paso 3: Proporcione un resumen del problema encontrado en el registro tcpdump
+## Paso 3: Proporcione un resumen del problema encontrado en el registro `tcpdump`
 
 Tras analizar los datos que le presenta el registro `tcpdump`, identifique tendencias en los datos. Evalúe qué protocolo está produciendo el mensaje de error del servidor DNS para el sitio web yummyrecipesforme.com. Recuerde que uno de los puertos que se muestra repetidamente es el Puerto 53, comúnmente utilizado para DNS. En su análisis
 
