@@ -46,31 +46,31 @@ Tu trabajo es documentar el incidente en detalle, incluyendo la identificación 
 
 Siga las instrucciones y responda a la siguiente pregunta para completar la actividad. A continuación, vaya al siguiente elemento del curso para comparar su trabajo con un ejemplo completado.
 
-### **Paso 1: Acceder a la plantilla**
+### Paso 1: Acceder a la plantilla
 
 Para utilizar la plantilla para este elemento del curso, haga clic en el enlace siguiente
 
-[Security-incident-report-template.docx](Security-incident-report-template.docx)
+[Security-incident-report-template.docx](docs/Security-incident-report-template.docx)
 
-[Plantilla-de-informe-de-incidente-de-seguridad.docx](Plantilla-de-informe-de-incidente-de-seguridad.docx)
+[Plantilla-de-informe-de-incidente-de-seguridad.docx](docs/Plantilla-de-informe-de-incidente-de-seguridad.docx)
 
-### **Paso 2: Acceda a los materiales de apoyo**
+### Paso 2: Acceda a los materiales de apoyo
 
 Los siguientes materiales de apoyo le ayudarán a completar esta actividad. Manténgalos abiertos mientras realiza los siguientes pasos.
 
 Para utilizar los materiales de apoyo para este elemento del curso, haga clic en el enlace de abajo
 
-[tcpdump-traffic-log.docx](tcpdump-traffic-log.docx)
+[tcpdump-traffic-log.docx](docs/tcpdump-traffic-log.docx)
 
-[How-to-read-the-tcpdump-traffic-log.docx](How-to-read-the-tcpdump-traffic-log.docx)
+[How-to-read-the-tcpdump-traffic-log.docx](docs/How-to-read-the-tcpdump-traffic-log.docx)
 
-[Como-leer-el-registro-de-trafico-de-tcpdump.docx](Como-leer-el-registro-de-trafico-de-tcpdump.docx)
+[Como-leer-el-registro-de-trafico-de-tcpdump.docx](docs/Como-leer-el-registro-de-trafico-de-tcpdump.docx)
 
-### **Paso 3: Identificar el protocolo de red implicado en el incidente**
+### Paso 3: Identificar el protocolo de red implicado en el incidente
 
 Como uno de los analistas de ciberseguridad en este escenario, se le ha encomendado la tarea de redactar un informe de incidente para este evento de seguridad. Utilizando el archivo de registro `tcpdump`, determine qué protocolo de red se identifica en las capturas de paquetes durante la investigación. Utilizará lo que aprendió sobre las cuatro capas del Modelo TCP/IP y qué protocolos ocurren en cada capa. A continuación, revise el registro de tráfico `tcpdump` y anote qué protocolo ha identificado en la primera sección de la plantilla de informe de incidentes de seguridad.
 
-### **Paso 4: Documente el incidente**
+### Paso 4: Documente el incidente
 
 Resuma el incidente en la segunda sección del informe. Proporcione tantos detalles y hechos como sea posible en su documentación. Al redactar la documentación, asegúrese de:
 
@@ -80,7 +80,7 @@ Resuma el incidente en la segunda sección del informe. Proporcione tantos detal
 
 Redactar una documentación precisa y detallada de los incidentes de ciberseguridad puede servir como punto de referencia para otros analistas de ciberseguridad. Además, una documentación de calidad puede utilizarse para educar a otros empleados sobre las medidas de ciberseguridad adoptadas en la empresa cuando se producen incidentes y puede ayudar a las empresas a cumplir con las distintas auditorías de seguridad.
 
-### **Paso 5: Recomiende una solución para los ataques de fuerza bruta**
+### Paso 5: Recomiende una solución para los ataques de fuerza bruta
 
 Tras documentar el incidente, escriba una recomendación para ayudar a su organización a prevenir los ataques de fuerza bruta en el futuro.
 
