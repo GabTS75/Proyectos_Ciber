@@ -6,8 +6,6 @@ En esta actividad, estudiará un escenario en el que un cliente de la empresa pa
 
 En este curso, ha aprendido sobre varios ataques de red comunes. Ha aprendido sus nombres, cómo se llevan a cabo y las características de cada ataque desde la perspectiva del objetivo. Comprender cómo afectan los ataques a una red le ayudará a solucionar los problemas de la red de su organización. También le ayudará a tomar medidas para mitigar los daños y proteger una red de futuros ataques.
 
----
-
 ## Escenario
 
 Revise el siguiente escenario. A continuación, complete las instrucciones paso a paso.
@@ -20,8 +18,6 @@ Utiliza un rastreador de paquetes para capturar los paquetes de datos en tránsi
 
 Usted desconecta temporalmente el servidor para que la máquina pueda recuperarse y volver a un estado operativo normal. También configura el cortafuegos de la empresa para que bloquee la dirección IP que estaba enviando el número anormal de peticiones SYN. Sabe que su solución de bloqueo de IP no durará mucho, ya que un atacante puede suplantar otras direcciones IP para burlar este bloqueo. Tiene que alertar rápidamente a su jefe sobre este problema y discutir los pasos a seguir para detener a este atacante y evitar que este problema se repita. Tendrá que estar preparado para contarle a su jefe el tipo de ataque que ha descubierto y cómo estaba afectando al servidor web y a los empleados.
 
----
-
 ## Instrucciones
 
 Siga las instrucciones y responda a la pregunta para completar la actividad.
@@ -33,8 +29,6 @@ Para utilizar la plantilla para este elemento del curso, haga clic en el enlace 
 [Cybersecurity-incident-report.pdf](docs/Cybersecurity-incident-report.pdf)
 
 [Informe-de-incidente-de-Ciberseguridad.pdf](docs/Informe-de-incidente-de-Ciberseguridad.pdf)
-
----
 
 ### Paso 2: Acceso a los materiales de apoyo
 
@@ -52,8 +46,6 @@ Para utilizar los materiales de apoyo para este elemento del curso, haga clic en
 
     [Cómo-leer-un-registro-Wireshark-TCP_HTTP-log (resumen).pdf](docs/Como-leer-un-registro-Wireshark-TCP_HTTP-log_(resumen).pdf)
 
----
-
 ### Paso 3: Identificar el tipo de ataque causante de esta interrupción de la red
 
 Reflexione sobre los tipos de ataques de intrusión en la red que ha conocido hasta ahora en este curso. Como analista de seguridad, identificar el tipo de ataque a la red en función del incidente es el primer paso para gestionar el ataque y prevenir ataques similares en el futuro.
@@ -67,8 +59,6 @@ He aquí algunas preguntas a tener en cuenta a la hora de determinar qué tipo d
 
 Revise la lectura de Wireshark del paso 2 e intente identificar patrones en el tráfico de red registrado. Analice los patrones para determinar qué tipo de ataque de red se ha producido. Escriba su análisis en la sección uno de la plantilla de informe de incidentes de ciberseguridad proporcionada.
 
----
-
 ### Paso 4: Explicar cómo el ataque está provocando el mal funcionamiento del sitio web
 
 Revise la lectura de Wireshark del paso 2 y, a continuación, escriba su análisis en la sección dos de la plantilla de Informe de Incidentes de Ciberseguridad que se proporciona.
@@ -80,11 +70,11 @@ Cuando redacte su informe, hable de los dispositivos y actividades de red implic
 - Describa las posibles consecuencias de este ataque y cómo afecta negativamente a la organización.
 - *Opcional:* Sugiera posibles formas de asegurar la red para poder evitar este ataque en el futuro.
 
----
-
 ## Qué incluir en su respuesta
 
 Asegúrese de abordar lo siguiente en su actividad completada:
 
 - El nombre del ataque de intrusión en la red
 - Una descripción de cómo el ataque afecta negativamente al rendimiento de la red.
+
+✨

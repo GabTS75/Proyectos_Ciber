@@ -56,8 +56,6 @@ Como analista de seguridad, también puedo sugerir qué hacer:
 2. **Reducir el tiempo de espera (Timeout):** Hacer que el servidor deje de esperar el tercer paso más rápido para liberar recursos.
 3. **Sistemas de detección de intrusos (IDS/IPS):** Para que el cortafuegos detecte automáticamente este patrón de "muchos SYN de una sola IP" y lo bloquee antes de que sature al servidor.
 
----
-
-[Informe-de-incidente-de-Ciberseguridad-DoS-Gabriel-Ternero.pdf](docs/Informe-de-incidente-de-Ciberseguridad-DoS-Gabriel-Ternero.pdf)
+[Informe-DoS-SYN-Flood-Gabriel-Ternero.pdf](docs/Informe-DoS-SYN-Flood-Gabriel-Ternero.pdf)
 
 ✨🫵😎
