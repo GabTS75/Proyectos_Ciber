@@ -44,12 +44,10 @@ Para evitar que un ataque de fuerza bruta vuelva a comprometer el sistema, recom
 
 ---
 
-[Informe-Ataque-de-fuerza-bruta-Gabriel-Ternero.pdf](docs/Informe-Ataque-de-fuerza-bruta-Gabriel-Ternero.pdf)
-
 ## Reflexión
 
 > *"Con este caso he aprendido que la seguridad no es solo técnica (analizar logs), sino también va de gestión, es decir, cómo una simple contraseña por defecto anuló todas las protecciones de red, tan simple como eso. Por tal motivo el endurecimiento de sistemas (**Hardening**) es la base para que el monitoreo de red sea efectivo"*. ☝️😉
 
-![image.png](docs/image.png)
+[Informe-Ataque-de-fuerza-bruta-Gabriel-Ternero.pdf](docs/Informe-Ataque-de-fuerza-bruta-Gabriel-Ternero.pdf)
 
----
+![image.png](docs/image.png)
