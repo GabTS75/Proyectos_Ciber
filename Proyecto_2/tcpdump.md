@@ -4,8 +4,6 @@
 
 A pesar de su nombre, `tcpdump` no se limita a TCP; es crucial para analizar protocolos como UDP e ICMP debido a su capacidad de operar en tiempo real, su ligereza y sus potentes filtros de captura.
 
----
-
 ## ¿Por qué `tcpdump` es vital para UDP e ICMP?
 
 A diferencia de TCP, los protocolos UDP e ICMP son "sin conexión" (connectionless), lo que significa que no establecen una sesión formal, haciendo que su monitoreo sea más difícil sin una herramienta que muestre el flujo crudo.
@@ -35,5 +33,4 @@ A diferencia de TCP, los protocolos UDP e ICMP son "sin conexión" (connectionle
 - **Capturar tráfico UDP en un puerto específico (ej. DNS):**`tcpdump -n udp port 53`
 - **Guardar la captura en un archivo para analizar después:**`tcpdump -w captura.pcap -i eth0`
 
----
 ✨😎👍
