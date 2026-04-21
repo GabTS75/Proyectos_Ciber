@@ -10,11 +10,11 @@ Saber cómo identificar el tráfico potencialmente malicioso en una red puede ay
 
 ## Escenario
 
-Usted es un analista de ciberseguridad que trabaja en una empresa especializada en la prestación de servicios informáticos para clientes. Varios clientes de clientes informaron de que no podían acceder al sitio web de la empresa cliente www.yummyrecipesforme.com, y vieron el error "puerto de destino inalcanzable" después de esperar a que se cargara la página.
+Usted es un analista de ciberseguridad que trabaja en una empresa especializada en la prestación de servicios informáticos para clientes. Varios clientes de clientes informaron de que no podían acceder al sitio web de la empresa cliente `www.yummyrecipesforme.com`, y vieron el error "puerto de destino inalcanzable" después de esperar a que se cargara la página.
 
 Usted tiene la tarea de analizar la situación y determinar qué protocolo de red se vio afectado durante este incidente. Para empezar, intenta visitar la página web y también recibe el error "puerto de destino inalcanzable" Para solucionar el problema, carga su herramienta de análisis de red, `tcpdump`, e intenta cargar de nuevo la página web. Para cargar la página web, su navegador envía una consulta a un servidor DNS a través del protocolo UDP para recuperar la dirección IP del nombre de dominio del sitio web; esto forma parte del protocolo DNS. A continuación, su navegador utiliza esta dirección IP como IP de destino para enviar una solicitud HTTPS al servidor web para mostrar la página web El analizador muestra que cuando envía paquetes UDP al servidor DNS, recibe paquetes ICMP que contienen el mensaje de error: "Puerto udp 53 inalcanzable".
 
-![image.png](img/evidencia_log.png)
+![image.png](docs/evidencia_log.png)
 
 En el registro `tcpdump`, se encuentra la siguiente información:
 
@@ -36,27 +36,27 @@ Mientras tanto, este incidente está siendo gestionado por ingenieros de segurid
 
 Siga las instrucciones y responda a la pregunta siguiente para completar la actividad.
 
-## Paso 1: Acceder a la plantilla
+### Paso 1: Acceder a la plantilla
 
 Para utilizar la plantilla para este tema del curso.
 
-[Informe-de-incidente-de-ciberseguridad-Análisis-de-tráfico-de-red.pdf](pdf/Informe-de-incidente-de-ciberseguridad-Anlisis-de-trfico-de-red.pdf)
+[Informe-de-incidente-de-ciberseguridad-Análisis-de-tráfico-de-red.pdf](docs/Informe-de-incidente-de-ciberseguridad-Anlisis-de-trfico-de-red.pdf)
 
-[Cybersecurity-incident-report-Network-traffic-analysis.pdf](pdf/Cybersecurity-incident-report-Network-traffic-analysis.pdf)
+[Cybersecurity-incident-report-Network-traffic-analysis.pdf](docs/Cybersecurity-incident-report-Network-traffic-analysis.pdf)
 
 Utilice los iniciadores de frases y las indicaciones de la plantilla para apoyar su reflexión y asegúrese de incluir todos los detalles relevantes sobre el incidente.
 
-## Paso 2: Acceda a los materiales de apoyo
+### Paso 2: Acceda a los materiales de apoyo
 
 Los siguientes materiales de apoyo le ayudarán a completar esta actividad. Manténgalos abiertos mientras avanza hacia los siguientes pasos.
 
 Para utilizar los materiales de apoyo para este tema del curso, haga clic en los siguientes enlaces.
 
-[Ejemplo de un informe de incidente de ciberseguridad.pdf](pdf/Ejemplo_de_un_informe_de_incidente_de_ciberseguridad.pdf)
+[Ejemplo de un informe de incidente de ciberseguridad.pdf](docs/Ejemplo_de_un_informe_de_incidente_de_ciberseguridad.pdf)
 
-[Example-of-a-Cybersecurity-Incident-Report.pdf](pdf/Example-of-a-Cybersecurity-Incident-Report.pdf)
+[Example-of-a-Cybersecurity-Incident-Report.pdf](docs/Example-of-a-Cybersecurity-Incident-Report.pdf)
 
-## Paso 3: Proporcione un resumen del problema encontrado en el registro `tcpdump`
+### Paso 3: Proporcione un resumen del problema encontrado en el registro `tcpdump`
 
 Tras analizar los datos que le presenta el registro `tcpdump`, identifique tendencias en los datos. Evalúe qué protocolo está produciendo el mensaje de error del servidor DNS para el sitio web yummyrecipesforme.com. Recuerde que uno de los puertos que se muestra repetidamente es el Puerto 53, comúnmente utilizado para DNS. En su análisis
 
@@ -66,7 +66,7 @@ Tras analizar los datos que le presenta el registro `tcpdump`, identifique tende
 
 Registre sus respuestas en la primera parte del informe sobre incidentes de ciberseguridad.
 
-## Paso 4: Explique su análisis de los datos y proporcione una solución para aplicar
+### Paso 4: Explique su análisis de los datos y proporcione una solución para aplicar
 
 Ahora que ha inspeccionado el registro de tráfico y ha identificado las tendencias en el tráfico, describa por qué aparecieron los mensajes de error en el registro. Utilice su respuesta del paso anterior y el escenario para identificar la razón de los mensajes de error ICMP. Los mensajes de error indican que hay un problema con un puerto específico. ¿Qué revelan los diferentes protocolos implicados en el registro sobre la incidencia? En su respuesta:
 

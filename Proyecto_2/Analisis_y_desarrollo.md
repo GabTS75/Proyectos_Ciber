@@ -37,7 +37,7 @@ Aquí explico cómo llegué a estas conclusiones y qué fue lo que pasó:
 
 ---
 
-[Informe-de-incidente-de-ciberseguridad-Análisis-de-tráfico-de-red.pdf (Gabriel Ternero)](pdf/Informe-Gabriel-Ternero.pdf)
+[Informe-de-incidente-de-ciberseguridad-Análisis-de-tráfico-de-red.pdf (Gabriel Ternero)](docs/Informe-Gabriel-Ternero.pdf)
 
 ## Lo que aprendí con este caso
 
