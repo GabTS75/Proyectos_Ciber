@@ -18,7 +18,7 @@ Usted tiene la tarea de analizar la situación y determinar qué protocolo de re
 
 En el registro `tcpdump`, se encuentra la siguiente información:
 
-1. Las dos primeras líneas del archivo de registro muestran la petición saliente inicial de su ordenador al servidor DNS solicitando la dirección IP de yummyrecipesforme.com. Esta solicitud se envía en un Paquete UDP.
+1. Las dos primeras líneas del archivo de registro muestran la petición saliente inicial de su ordenador al servidor DNS solicitando la dirección IP de `yummyrecipesforme.com`. Esta solicitud se envía en un Paquete UDP.
 2. La tercera y cuarta líneas del registro muestran la respuesta a su paquete UDP. En este caso, la línea ICMP 203.0.113.2 es el inicio del mensaje de error que indica que el paquete UDP no se pudo entregar en el puerto 53 del servidor DNS.
 3. Delante de cada solicitud y respuesta, encontrará marcas de tiempo que indican cuándo se produjo el incidente. En el registro, ésta es la primera secuencia de números que aparece: 13:24:32.192571. Esto significa que la hora es 13:24, 32,192571 segundos.
 4. Después de las marcas de tiempo, encontrará las direcciones IP de origen y destino. En la primera línea, donde el paquete UDP viaja desde su navegador hasta el servidor DNS, esta información se muestra como: 192.51.100.15 > 203.0.113.2.dominio. La dirección IP a la izquierda del símbolo mayor que (>) es la dirección de origen, que en este ejemplo es la dirección IP de su ordenador. La dirección IP a la derecha del símbolo mayor que (>) es la dirección IP de destino. En este caso, es la dirección IP del servidor DNS: 203.0.113.2.dominio. Para la respuesta de error ICMP, la dirección de origen es 203.0.113.2 y el destino es la dirección IP de su ordenador 192.51.100.15.
@@ -58,7 +58,7 @@ Para utilizar los materiales de apoyo para este tema del curso, haga clic en los
 
 ### Paso 3: Proporcione un resumen del problema encontrado en el registro `tcpdump`
 
-Tras analizar los datos que le presenta el registro `tcpdump`, identifique tendencias en los datos. Evalúe qué protocolo está produciendo el mensaje de error del servidor DNS para el sitio web yummyrecipesforme.com. Recuerde que uno de los puertos que se muestra repetidamente es el Puerto 53, comúnmente utilizado para DNS. En su análisis
+Tras analizar los datos que le presenta el registro `tcpdump`, identifique tendencias en los datos. Evalúe qué protocolo está produciendo el mensaje de error del servidor DNS para el sitio web `yummyrecipesforme.com`. Recuerde que uno de los puertos que se muestra repetidamente es el Puerto 53, comúnmente utilizado para DNS. En su análisis
 
 - Incluya un breve resumen del análisis del registro `tcpdump` e identifique qué protocolos se utilizaron para el Tráfico de red.
 - Proporcione algunos detalles sobre lo indicado en el registro.

@@ -20,8 +20,6 @@ Al analizar los registros (logs) de la comunicación, esto es lo que encontré:
 - **¿Para qué sirve ese puerto?:** El puerto 53 es como la "ventanilla" específica donde se atienden las consultas de nombres de dominio (DNS).
 - **Mi conclusión inicial:** El servidor está encendido y nos escucha, pero la "ventanilla" del servicio DNS está cerrada. Por eso la web no carga: no podemos traducir el nombre a una dirección IP.
 
----
-
 ### Parte 2: Mi análisis y el origen del incidente
 
 Aquí explico cómo llegué a estas conclusiones y qué fue lo que pasó:
@@ -37,12 +35,11 @@ Aquí explico cómo llegué a estas conclusiones y qué fue lo que pasó:
 
 ---
 
-[Informe-de-incidente-de-ciberseguridad-Análisis-de-tráfico-de-red.pdf (Gabriel Ternero)](docs/Informe-Gabriel-Ternero.pdf)
+[Informe-Análisis-de-tráfico-de-red.pdf (Gabriel Ternero)](docs/Informe-Gabriel-Ternero.pdf)
 
-## Lo que aprendí con este caso
+## Conclusiones
 
 Este ejercicio me ayudó a entender que la red no solo envía datos, sino también "mensajes de error" (**ICMP**) que son como pistas para los analistas.
 Comprendí que se debe *aprender a leer estas pistas*, ya que esto es la diferencia entre "adivinar qué pasa" y "saber exactamente dónde está el problema".
 
----
 💫
