@@ -8,8 +8,6 @@ Anteriormente, hemos aprendido prácticas de endurecimiento de la red y práctic
 
 Las prácticas de endurecimiento de la red ayudan a las organizaciones a controlar las posibles amenazas y ataques a su red y a evitar que se produzcan algunos ataques. Algunas prácticas de endurecimiento se aplican todos los días, mientras que otras se ejecutan de vez en cuando, como cada dos semanas o una vez al mes. Comprender cómo utilizar las herramientas y los métodos de endurecimiento de la red le ayudará a supervisar mejor la actividad de la red y a proteger la red de su organización contra diversos ataques.
 
----
-
 ## Escenario
 
 A continuación, complete las instrucciones paso a paso.
@@ -26,8 +24,6 @@ Tras inspeccionar la red de la organización, usted descubre cuatro vulnerabilid
 Si no se toman medidas para solucionar estas vulnerabilidades, la organización corre el riesgo de sufrir otra violación de datos u otros ataques en el futuro.
 
 En esta actividad, redactará una evaluación de riesgos de seguridad para analizar el incidente y explicar qué métodos se pueden utilizar para proteger aún más la red.
-
----
 
 ## Instrucciones paso a paso
 
@@ -69,8 +65,6 @@ Aquí tiene un par de preguntas para empezar:
 - ¿Con qué frecuencia debe implementarse la técnica de endurecimiento?
 
 Escriba su respuesta en la segunda parte de la hoja de trabajo.
-
----
 
 ## Qué incluir en su respuesta
 

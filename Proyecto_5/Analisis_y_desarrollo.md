@@ -46,10 +46,10 @@ Si alguna capa fallase, la siguiente capa detiene al atacante. Al eliminar las c
 
 ---
 
-[Informe-de-evaluación-de-riesgos-de-seguridad-Gabriel-Ternero.pdf](docs/Informe-de-evaluacin-de-riesgos-de-seguridad-Gabriel-Ternero.pdf)
-
 ### Conclusiones
 
 Al realizar este ejercicio, me di cuenta de que la tecnología más avanzada (como un firewall costoso) **no sirve de nada** si las personas siguen compartiendo contraseñas o usando las de fábrica. La ciberseguridad es un equilibrio entre configurar bien las máquinas y educar a las personas que las usan.
+
+[Informe-de-evaluación-de-riesgos-de-seguridad-Gabriel-Ternero.pdf](docs/Informe-de-evaluacin-de-riesgos-de-seguridad-Gabriel-Ternero.pdf)
 
 ☝️😉
