@@ -19,8 +19,8 @@ Tener esta mentalidad de "defensa en profundidad" es lo que hace que un analista
 Para este escenario, he seleccionado las tres medidas más urgentes y efectivas:
 
 1. **Implementación de Autenticación Multifactor (MFA):** Es la prioridad número uno para detener el uso de contraseñas compartidas o robadas.
-2. **Configuración y Mantenimiento de Firewall (Filtrado de tráfico):** Para cerrar los accesos no autorizados que actualmente están totalmente abiertos.
-3. **Gestión de Contraseñas y Configuración de Línea Base (Baseline):** Para eliminar de raíz el problema de las contraseñas por defecto y compartidas.
+2. **Configuración y mantenimiento de Firewall (Filtrado de tráfico):** Para cerrar los accesos no autorizados que actualmente están totalmente abiertos.
+3. **Gestión de contraseñas y configuración de Línea Base (Baseline):** Para eliminar de raíz el problema de las contraseñas por defecto y compartidas.
 
 ![image.png](docs/image1.png)
 
@@ -32,11 +32,11 @@ Para este escenario, he seleccionado las tres medidas más urgentes y efectivas:
 | --- | --- | --- | --- |
 | **No se utiliza MFA** | **Autenticación Multifactor (MFA)** | Aunque un empleado comparta su contraseña o un hacker la adivine, no podrán entrar sin el segundo factor (código al móvil, token). Esto bloquea el 99% de los ataques de identidad. | **Cada vez que un usuario inicia sesión** desde un dispositivo nuevo o sensible. |
 | **Sin reglas de Firewall** | **Filtrado de puertos y reglas de tráfico** | El firewall actuará como un "filtro". Solo permitiremos el tráfico necesario (ej. puerto 443 para web) y bloquearemos todo lo demás, impidiendo que los atacantes exploren la red. | **Monitoreo diario** y revisión profunda de reglas **mensualmente**. |
-| **Contraseñas por defecto y compartidas** | **Políticas de Contraseñas y Líneas Base** | Establecer una "línea base" obliga a cambiar todas las contraseñas de fábrica antes de usar un equipo. Prohibir técnicamente el uso de contraseñas anteriores evita que se reciclen. | **Cambio obligatorio al instalar** y auditorías de configuración **cada trimestre**. |
+| **Contraseñas por defecto y compartidas** | **Políticas de contraseñas y Líneas Base** | Establecer una "línea base" obliga a cambiar todas las contraseñas de fábrica antes de usar un equipo. Prohibir técnicamente el uso de contraseñas anteriores evita que se reciclen. | **Cambio obligatorio al instalar** y auditorías de configuración **cada trimestre**. |
 
 Pero, ¿Cómo es que estas herramientas "curan" las debilidades encontradas en una empresa?
 
-Aquí podemos ver que la combinación de estas herramientas crea una **defensa en profundidad**, es decir:
+Podemos ver claramente que la combinación de estas herramientas crean una **defensa en profundidad**, es decir:
 
 - El MFA protege la **identidad.**
 - El Firewall protege el **perímetro** de la red, y
@@ -51,3 +51,5 @@ Si alguna capa fallase, la siguiente capa detiene al atacante. Al eliminar las c
 ### Conclusiones
 
 Al realizar este ejercicio, me di cuenta de que la tecnología más avanzada (como un firewall costoso) **no sirve de nada** si las personas siguen compartiendo contraseñas o usando las de fábrica. La ciberseguridad es un equilibrio entre configurar bien las máquinas y educar a las personas que las usan.
+
+☝️😉
