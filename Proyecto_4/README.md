@@ -50,9 +50,9 @@ Siga las instrucciones y responda a la siguiente pregunta para completar la acti
 
 Para utilizar la plantilla para este elemento del curso, haga clic en el enlace siguiente
 
-[Security-incident-report-template.docx](docs/Security-incident-report-template.docx)
+[Security-incident-report-template.pdf](docs/Security-incident-report-template.pdf)
 
-[Plantilla-de-informe-de-incidente-de-seguridad.docx](docs/Plantilla-de-informe-de-incidente-de-seguridad.docx)
+[Plantilla-de-informe-de-incidente-de-seguridad.pdf](docs/Plantilla-de-informe-de-incidente-de-seguridad.pdf)
 
 ### Paso 2: Acceda a los materiales de apoyo
 
@@ -60,11 +60,11 @@ Los siguientes materiales de apoyo le ayudarán a completar esta actividad. Mant
 
 Para utilizar los materiales de apoyo para este elemento del curso, haga clic en el enlace de abajo
 
-[tcpdump-traffic-log.docx](docs/tcpdump-traffic-log.docx)
+[tcpdump-traffic-log.pdf](docs/tcpdump-traffic-log.pdf)
 
-[How-to-read-the-tcpdump-traffic-log.docx](docs/How-to-read-the-tcpdump-traffic-log.docx)
+[How-to-read-the-tcpdump-traffic-log.pdf](docs/How-to-read-the-tcpdump-traffic-log.pdf)
 
-[Como-leer-el-registro-de-trafico-de-tcpdump.docx](docs/Como-leer-el-registro-de-trafico-de-tcpdump.docx)
+[Como-leer-el-registro-de-trafico-de-tcpdump.pdf](docs/Como-leer-el-registro-de-trafico-de-tcpdump.pdf)
 
 ### Paso 3: Identificar el protocolo de red implicado en el incidente
 

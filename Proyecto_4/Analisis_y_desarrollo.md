@@ -1,14 +1,12 @@
 # Análisis y desarrollo
 
-## Análisis y Desarrollo
-
 En este proyecto estaremos uniendo **el análisis técnico de red** con **la gestión de accesos**. Muy interesante, porque aquí pasamos de simplemente "mirar la red" a entender cómo una debilidad en el **sistema operativo** (una contraseña por defecto) permitió que todo el desastre ocurriera.
 
-Desarrollemos el análisis:
+Ahora desarrollemos este análisis:
 
-### Informe de Incidente de Ciberseguridad: yummyrecipesforme.com
+## Informe de Incidente de Ciberseguridad: yummyrecipesforme.com
 
-#### Sección 1: Identificación del protocolo de red
+### Sección 1: Identificación del protocolo de red
 
 Luego de revisar el registro de tráfico de `tcpdump`, he identificado los siguientes protocolos clave involucrados en la comunicación:
 
@@ -18,7 +16,7 @@ Luego de revisar el registro de tráfico de `tcpdump`, he identificado los sigui
 
 ---
 
-#### Sección 2: Documentación del incidente
+### Sección 2: Documentación del incidente
 
 **Resumen de los hechos:** El incidente comenzó cuando un antiguo empleado descontento realizó un **ataque de fuerza bruta** contra el panel de administración del host de `yummyrecipesforme.com`. Debido a que la cuenta administrativa conservaba una **contraseña por defecto**, el atacante logró entrar fácilmente. Una vez dentro, modificó el código fuente inyectando un script de **Javascript** y cambió la contraseña para bloquear al propietario legítimo.
 
@@ -31,7 +29,7 @@ Luego de revisar el registro de tráfico de `tcpdump`, he identificado los sigui
 
 ---
 
-#### Sección 3: Recomendaciones de seguridad (Endurecimiento)
+### Sección 3: Recomendaciones de seguridad (Endurecimiento)
 
 Para evitar que un ataque de fuerza bruta vuelva a comprometer el sistema, recomiendo encarecidamente la siguiente medida:
 
@@ -52,7 +50,6 @@ Para evitar que un ataque de fuerza bruta vuelva a comprometer el sistema, recom
 
 > *"Con este caso he aprendido que la seguridad no es solo técnica (analizar logs), sino también va de gestión, es decir, cómo una simple contraseña por defecto anuló todas las protecciones de red, tan simple como eso. Por tal motivo el endurecimiento de sistemas (**Hardening**) es la base para que el monitoreo de red sea efectivo"*. ☝️😉
 
----
-![image.pgn](docs/image.png)
+![image.png](docs/image.png)
 
 ---
