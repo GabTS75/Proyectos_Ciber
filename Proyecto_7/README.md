@@ -16,10 +16,10 @@ Esta cadena es en realidad un mapa de seguridad perfecto y altamente estructurad
 ```bash
 -    rw-   rw-   r--
 ▲     ▲     ▲     ▲
-│     │     │     └─── Permisos de Otros (Other)
-│     │     └───────── Permisos de Grupo (Group)
-│     └─────────────── Permisos de Usuario Propietario (User)
-└──────────────────── Tipo de Activo (- = Archivo, d = Directorio)
+│     │     │     └─── (Other) Permisos de Otros
+│     │     └───────── (Group) Permisos de Grupo
+│     └─────────────── (User) Permisos de Usuario Propietario
+└───────────────────── Tipo de Activo (- = Archivo, d = Directorio)
 ```
 
 ### Los tres permisos clave
