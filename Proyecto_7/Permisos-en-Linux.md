@@ -70,5 +70,4 @@ drwxr--r-x 2 researcher2 research 4096 May 20 18:30 drafts
 
 ## Conclusiones e impacto
 
-A través de la ejecución de esta auditoría y la aplicación de tareas de robustecimiento (hardening), se mitigaron proactivamente múltiples vectores de riesgo interno.
-La transición consciente desde el entendimiento visual de la cadena simbólica hasta el dominio del sistema octal permite un control de accesos ágil y alineado con los estándares internacionales de gobernanza en seguridad informática.
+A través de la ejecución de esta auditoría y la aplicación de tareas de robustecimiento (hardening), se mitigaron proactivamente múltiples vectores de riesgo interno. La transición consciente desde el entendimiento visual de la cadena simbólica hasta el dominio del sistema octal permite un control de accesos ágil y alineado con los estándares internacionales de gobernanza en seguridad informática.

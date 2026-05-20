@@ -13,12 +13,14 @@ Dejar accesos abiertos de forma indebida vulnera el **Principio de Menor Privile
 Para alguien que se adentra por primera vez en sistemas operativos basados en Unix, el comando `ls -la` expone al inicio de cada línea una cadena aparentemente críptica de 10 caracteres (por ejemplo: `-rw-rw-r--`).
 Esta cadena es en realidad un mapa de seguridad perfecto y altamente estructurado:
 
-`-    rw-   rw-   r--`
+```bash
+-    rw-   rw-   r--
 ▲     ▲     ▲     ▲
 │     │     │     └─── Permisos de Otros (Other)
 │     │     └───────── Permisos de Grupo (Group)
 │     └─────────────── Permisos de Usuario Propietario (User)
 └──────────────────── Tipo de Activo (- = Archivo, d = Directorio)
+```
 
 ### Los tres permisos clave
 
