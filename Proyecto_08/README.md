@@ -6,15 +6,11 @@ En esta actividad, crearás un nuevo documento de portafolio para demostrar tu e
 
 Este escenario está relacionado con el uso de los operadores **AND**, **OR** y **NOT** en SQL para filtrar información. Explica cada una de las consultas que realices.
 
----
-
 ## Escenario
 
 Usted es un profesional de seguridad en una gran organización. Parte de su trabajo es investigar problemas de seguridad para ayudar a mantener el sistema seguro. Recientemente descubrió algunos problemas potenciales de seguridad que involucran intentos de inicio de sesión y máquinas de empleados.
 
 Su tarea es examinar los datos de la organización en sus tablas **employees** y **log_in_attempts**. Deberá utilizar filtros SQL para recuperar registros de diferentes conjuntos de datos e investigar los posibles problemas de seguridad.
-
----
 
 ## Instrucciones paso a paso
 
@@ -119,8 +115,6 @@ Para finalizar el documento, asegúrate de completar las secciones Descripción 
 En la sección Descripción del proyecto, ofrece una visión general del escenario y de lo que consigues mediante SQL. Escribe de dos a cuatro frases.
 
 En la sección Resumen, proporcione un breve resumen de las tareas anteriores y conéctelas con el escenario. Escribe aproximadamente de dos a cuatro frases.
-
----
 
 ## Qué incluir en tu respuesta
 
