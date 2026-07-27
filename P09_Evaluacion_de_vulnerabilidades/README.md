@@ -82,7 +82,7 @@ Consulte las secciones de probabilidad y gravedad del recurso *NIST SP 800-30 Re
 
 A continuación, calcule una puntuación de **Probabilidad** (1-3) y de **Gravedad** (1-3) para cada amenaza y añada sus puntuaciones a las columnas correspondientes de la tabla de Evaluación de riesgos de su plantilla. Después, calcule una puntuación global de **Riesgo** (1-9) para cada amenaza utilizando la Fórmula (**probabilidad x gravedad = riesgo**).
 
-**Nota:** El número de filas de una tabla de riesgos puede variar en función de la complejidad y el alcance de la evaluación. En general, debe proporcionar a las partes interesadas una visión global de todos los riesgos importantes.
+> **Nota:** El número de filas de una tabla de riesgos puede variar en función de la complejidad y el alcance de la evaluación. En general, debe proporcionar a las partes interesadas una visión global de todos los riesgos importantes.
 
 ### Parte 3 - Proponer recomendaciones de Seguridad
 
