@@ -1,4 +1,4 @@
-# Análisis para el desarrollo de este proyecto
+# Análisis y desarrollo
 
 ## Análisis de la comunicación en la capa de red
 
@@ -42,6 +42,4 @@ Aquí explico cómo llegué a estas conclusiones y qué fue lo que pasó:
 Este ejercicio me ayudó a entender que la red no solo envía datos, sino también "mensajes de error" (**ICMP**) que son como pistas para los analistas.
 Comprendí que se debe *aprender a leer estas pistas*, ya que esto es la diferencia entre "adivinar qué pasa" y "saber exactamente dónde está el problema".
 
-[Informe-Análisis-de-tráfico-de-red.pdf (Gabriel Ternero)](docs/Informe-Gabriel-Ternero.pdf)
-
-😉👍
+[Informe-Análisis-de-tráfico-de-red.pdf (Gabriel Ternero)](docs/Informe-Gabriel-Ternero.pdf) 👈

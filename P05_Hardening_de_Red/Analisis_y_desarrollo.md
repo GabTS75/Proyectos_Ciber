@@ -14,7 +14,7 @@ Tener esta mentalidad de "defensa en profundidad" es lo que hace que un analista
 
 ### Evaluación de riesgos y plan de endurecimiento (Hardening)
 
-#### Parte 1: Herramientas y métodos de endurecimiento recomendados
+#### 1. Herramientas y métodos de endurecimiento recomendados
 
 Para este escenario, he seleccionado las tres medidas más urgentes y efectivas:
 
@@ -26,7 +26,7 @@ Para este escenario, he seleccionado las tres medidas más urgentes y efectivas:
 
 ---
 
-#### Parte 2: Análisis de efectividad y frecuencia
+#### 2. Análisis de efectividad y frecuencia
 
 | **Vulnerabilidad Detectada** | **Técnica de Endurecimiento** | **¿Por qué es efectiva?** | **¿Con qué frecuencia?** |
 | --- | --- | --- | --- |
@@ -51,5 +51,3 @@ Si alguna capa fallase, la siguiente capa detiene al atacante. Al eliminar las c
 Al realizar este ejercicio, me di cuenta de que la tecnología más avanzada (como un firewall costoso) **no sirve de nada** si las personas siguen compartiendo contraseñas o usando las de fábrica. La ciberseguridad es un equilibrio entre configurar bien las máquinas y educar a las personas que las usan.
 
 [Informe-de-evaluación-de-riesgos-de-seguridad-Gabriel-Ternero.pdf](docs/Informe-de-evaluacin-de-riesgos-de-seguridad-Gabriel-Ternero.pdf)
-
-☝️😉

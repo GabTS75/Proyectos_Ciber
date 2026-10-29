@@ -1,6 +1,6 @@
 # Análisis y desarrollo del laboratorio
 
-## Paso 1: Auditoría inicial del entorno
+## 1. Auditoría inicial del entorno
 
 Antes de realizar modificaciones, se procedió a listar de forma detallada todos los elementos del directorio `projects`:
 
@@ -23,7 +23,7 @@ drwxrwxr-x 2 researcher2 research 4096 May 20 18:30 drafts
 
 3. `drafts` (`drwxrwxr-x`): La carpeta de borradores permite la ejecución al grupo de usuarios, violando la política restrictiva de la empresa.
 
-## Paso 2: Remoción de accesos en archivos estándar (`project_k.txt`)
+## 2. Remoción de accesos en archivos estándar (`project_k.txt`)
 
 La directiva exige que la categoría de "Otros" pierda la capacidad de alterar los archivos. Se ejecutó la remoción de este privilegio mediante modo simbólico:
 
@@ -37,7 +37,7 @@ researcher2@ubuntu:~/projects$ ls -la project_k.txt
 
 * Equivalente profesional octal: `chmod 664 project_k.txt`.
 
-## Paso 3: Gestión de permisos críticos en archivos ocultos archivados (`.project_x.txt`)
+## 3. Gestión de permisos críticos en archivos ocultos archivados (`.project_x.txt`)
 
 El archivo oculto `.project_x.txt` ha sido archivado. La directiva corporativa exige que nadie (incluido el creador) tenga permiso de escritura para evitar modificaciones accidentales, debiendo asegurar únicamente el acceso de lectura para el usuario y el grupo de trabajo.
 
@@ -52,7 +52,7 @@ researcher2@ubuntu:~/projects$ ls -la .project_x.txt
 
 * **Optimización avanzada en un solo paso:** `chmod 440 .project_x.txt` (4 para el dueño, 4 para el grupo, 0 para otros).
 
-## Paso 4: Restricción perimetral en directorios (`drafts`)
+## 4. Restricción perimetral en directorios (`drafts`)
 
 La organización determinó que únicamente el usuario líder (researcher2) debe poseer privilegios de ejecución (capacidad de ingresar mediante cd) a la carpeta `drafts`.
 

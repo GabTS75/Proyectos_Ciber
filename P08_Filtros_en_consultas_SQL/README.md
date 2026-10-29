@@ -1,6 +1,6 @@
 # Indicaciones del proyecto
 
-## Resumen de la actividad
+## Objetivo
 
 En esta actividad, crearás un nuevo documento de portafolio para demostrar tu experiencia usando SQL. Para crear este documento de portafolio, revisarás un escenario y seguirás una serie de pasos.
 
@@ -128,5 +128,3 @@ Asegúrate de incluir lo siguiente en tu actividad completada:
 - Detalles sobre el filtrado de fechas y horas
 - Detalles sobre el uso de **AND** y **OR** para filtrar según varias condiciones
 - Detalles sobre el uso de **NOT** en los filtros
-
-🎉

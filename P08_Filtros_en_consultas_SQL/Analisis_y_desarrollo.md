@@ -8,7 +8,7 @@ Este proyecto está orientado a mejorar la seguridad de un sistema. Dentro de la
 
 ---
 
-#### Paso 1: Recuperar intentos fallidos de inicio de sesión después del horario
+#### 1. Recuperar intentos fallidos de inicio de sesión después del horario
 
 Se produjo un posible incidente de seguridad fuera del horario laboral (después de las 18:00). Es necesario investigar todos los intentos de inicio de sesión fallidos ocurridos fuera de este horario.
 
@@ -22,7 +22,7 @@ Primero, comencé seleccionando todos los datos de la tabla **log_in_attempts**.
 
 ---
 
-#### Paso 2: Recuperar intentos de inicio de sesión en fechas específicas
+#### 2. Recuperar intentos de inicio de sesión en fechas específicas
 
 El 9 de mayo de 2022 se produjo un evento sospechoso. Se debe investigar cualquier intento de inicio de sesión ocurrido ese día o el día anterior.
 
@@ -36,7 +36,7 @@ Primero, he seleccionado todos los datos de la tabla **log_in_attempts**. Luego,
 
 ---
 
-#### Paso 3: Recuperar intentos de inicio de sesión fuera de México
+#### 3. Recuperar intentos de inicio de sesión fuera de México
 
 Tras analizar los datos de la organización sobre intentos de inicio de sesión, creo que existe un problema con los intentos ocurridos fuera de México. Estos intentos deben investigarse.
 
@@ -50,7 +50,7 @@ Primero, seleccioné todos los datos de la tabla **log_in_attempts**. Luego, uti
 
 ---
 
-#### Paso 4: Recuperar empleados en Marketing
+#### 4. Recuperar empleados en Marketing
 
 Se requiere actualizar los ordenadores de algunos empleados del departamento de Marketing. Para ello, necesito información sobre qué equipos actualizar.
 
@@ -64,7 +64,7 @@ Primero, comencé seleccionando todos los datos de la tabla **employees**. Luego
 
 ---
 
-#### Paso 5: Recuperar empleados en Finanzas o Ventas
+#### 5. Recuperar empleados en Finanzas o Ventas
 
 También es necesario actualizar los equipos de los empleados de los departamentos de Finanzas y Ventas. Dado que se requiere una actualización de seguridad diferente, debo obtener información únicamente de los empleados de estos dos departamentos.
 
@@ -78,7 +78,7 @@ Primero, seleccioné todos los datos de la tabla **employees**. Luego, utilicé 
 
 ---
 
-#### Paso 6: Recuperar a todos los empleados que no estén en TI
+#### 6. Recuperar a todos los empleados que no estén en TI
 
 Se necesita realizar una actualización de seguridad adicional en los equipos de los empleados que **no pertenecen** al departamento de **Tecnologías de la Información**. Para ello, primero debo obtener información sobre estos empleados.
 

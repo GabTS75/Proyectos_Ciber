@@ -57,5 +57,3 @@ Como analista de seguridad, también puedo sugerir qué hacer:
 3. **Sistemas de detección de intrusos (IDS/IPS):** Para que el cortafuegos detecte automáticamente este patrón de "muchos SYN de una sola IP" y lo bloquee antes de que sature al servidor.
 
 [Informe-DoS-SYN-Flood-Gabriel-Ternero.pdf](docs/Informe-DoS-SYN-Flood-Gabriel-Ternero.pdf)
-
-✨🫵😎

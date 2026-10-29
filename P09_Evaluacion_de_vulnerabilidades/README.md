@@ -1,6 +1,6 @@
-# Indicaciones el proyecto
+# Indicaciones del proyecto
 
-## Resumen de la actividad
+## Objetivo
 
 En esta actividad, llevará a cabo una evaluación de vulnerabilidades para una pequeña empresa. Una evaluación de la vulnerabilidad es el proceso de revisión interna de los sistemas de seguridad de una organización. Evaluará los riesgos de un sistema de información vulnerable y esbozará un plan de corrección.
 
@@ -42,7 +42,7 @@ La **Descripción del sistema** destaca los componentes relevantes, la arquitect
 
 El **Alcance** especifica el enfoque y los límites de la evaluación. Por ejemplo, puede especificar que el alcance de esta evaluación sólo se refiere a la confidencialidad, disponibilidad e integridad de los Datos en el servidor - no a la seguridad física del servidor o de sus sistemas informáticos relacionados.
 
-### Parte 2 - Realizar la Evaluación de riesgos
+### Parte 2 - Realizar la evaluación de riesgos
 
 #### Paso 1: Explicar la finalidad del sistema de información
 
@@ -149,6 +149,6 @@ Asegúrese de abordar los siguientes elementos en su actividad completada:
 
 ---
 
-## INFORME DE EVALUACIÓN DE VULNERABILIDADES
+## Informe de evaluación de vulnerabilidades
 
 [Informe de Evaluación de Vulnerabilidades | Gabriel Ternero](docs/Informe-de-Evaluación-de-Vulnerabilidades-Gabriel-Ternero.pdf) 👈

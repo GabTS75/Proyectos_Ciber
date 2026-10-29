@@ -1,6 +1,6 @@
 # Indicaciones del proyecto
 
-## Objetivo de la actividad
+## Objetivo
 
 En esta actividad, analizará el tráfico DNS e ICMP en tránsito utilizando los datos de una herramienta de análisis de protocolos de red. Identificará qué protocolo de red se utilizó en la evaluación del incidente de ciberseguridad.
 

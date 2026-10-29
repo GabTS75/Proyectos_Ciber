@@ -1,4 +1,4 @@
-# Proyecto 1: Realización de una Auditoría de Seguridad
+# Auditoría de Seguridad
 
 [01 Informe Botium Toys | Gabriel Ternero](pdf/01-Botium-Toys-informe.pdf)
 

@@ -6,8 +6,6 @@ En esta actividad, crearás un reporte de incidente utilizando el conocimiento q
 
 El CSF es escalable y puede aplicarse en una amplia variedad de contextos. A medida que continúe aprendiendo más y perfeccionando su comprensión de las habilidades clave de ciberseguridad, puede utilizar las plantillas proporcionadas en esta actividad en otras situaciones. Saber identificar qué medidas de seguridad aplicar en respuesta a las necesidades de la empresa le ayudará a determinar cuáles son las mejores opciones disponibles cuando se trata de la seguridad de la red.
 
-Asegúrese de completar esta actividad antes de continuar. En el siguiente punto del curso, podrá autoevaluar su respuesta. Después de eso, habrá un ejemplar completado para comparar con su propio trabajo. También tendrá la oportunidad de responder a las preguntas de la rúbrica que le permitirán reflexionar sobre los elementos clave de su declaración profesional.
-
 ## Escenario
 
 A continuación, complete las instrucciones paso a paso.

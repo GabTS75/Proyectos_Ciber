@@ -1,6 +1,6 @@
-# Auditoría y gestión de permisos de archivos y directorios en Linux
+# Indicaciones del proyecto
 
-## Descripción de este proyecto
+## Resumen
 
 En el ámbito de la ciberseguridad corporativa, la correcta asignación de privilegios es un pilar fundamental para mitigar riesgos. El equipo de investigación de nuestra organización detectó que las configuraciones de permisos dentro del directorio estratégico de proyectos (`projects`) no reflejaban de manera estricta los niveles de autorización requeridos.
 

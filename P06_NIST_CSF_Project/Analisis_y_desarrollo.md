@@ -81,7 +81,3 @@ Para que esta autoevaluación sea efectiva, revisaremos si el informe cumple con
 - *El protocolo ICMP, aunque útil, puede ser un verdadero peligro si no se limita su tasa de entrada.*
 - *La diferencia crítica entre **Responder** (contener el ataque) y **Recuperar** (volver a la normalidad de negocio).*
 - *El marco NIST CSF no es solo una lista de tareas, es un lenguaje común que permite a todo el equipo de seguridad trabajar coordinado “bajo presión”.*
-
----
-
-😉👍

@@ -76,5 +76,3 @@ Asegúrese de abordar lo siguiente en su actividad completada:
 
 - El nombre del ataque de intrusión en la red
 - Una descripción de cómo el ataque afecta negativamente al rendimiento de la red.
-
-✨
