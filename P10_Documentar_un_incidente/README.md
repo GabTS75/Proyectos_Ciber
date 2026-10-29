@@ -28,9 +28,9 @@ Una vez que los atacantes obtuvieron acceso, desplegaron su ransomware, que cifr
 
 Para utilizar la plantilla, haga clic en el enlace:
 
-[GVM-Incident-handlers-journal.pdf](GVM-Incident-handlers-journal.pdf)
+[GVM-Incident-handlers-journal.pdf](./docs/GVM-Incident-handlers-journal.pdf)
 
-[DGI-Diario-del-Gestor-de-Incidentes.pdf](DGI-Diario-del-Gestor-de-Incidentes.pdf)
+[DGI-Diario-del-Gestor-de-Incidentes.pdf](./docs/DGI-Diario-del-Gestor-de-Incidentes.pdf)
 
 ### Paso 2: Revisar el escenario
 
@@ -107,4 +107,4 @@ Para completar la autoevaluación, abra su DGI y a continuación, responda “S�
 
 ## DESARROLLO DE LA ACTIVIDAD
 
-[Diario-del-Gestor-de-Incidentes-Gabriel-Ternero.pdf](Diario-del-Gestor-de-Incidentes-Gabriel-Ternero.pdf) 👈
+[Diario-del-Gestor-de-Incidentes-Gabriel-Ternero.pdf](./docs/Diario-del-Gestor-de-Incidentes-Gabriel-Ternero.pdf) 👈
